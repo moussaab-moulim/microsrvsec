@@ -26,6 +26,7 @@ public class MicrosrvsecApplication {
                 accountService.saveUser(un,"1234","1234");
 
             });
+            accountService.addRoleToUser("admin","ADMIN");
         };
     }
     @Bean
